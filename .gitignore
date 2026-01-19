@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+_pycache_/
+
+# Environment Variables
+config.env
+*.env
+.env.local
+.env.*.local
+
+# Keep template but not actual config
+# config.env.template should be tracked
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+jobs.db
+test_jobs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude cache
+.claude/
+
+# Compressed files
+*.tar.gz
+*.zip
+*.rar
+job_monitor_package.tar.gz
+
+# Temporary files
+pasted_content.txt
+temp/
+tmp/
+
+# Test outputs
+test_digest_output.html
+test_output/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Batch files
+Get_Jobs.bat 
